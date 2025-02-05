@@ -23,7 +23,7 @@ html {
   background-image: linear-gradient(to top, var(--clr-bg));
 }
 
-.main {
+/* .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,4 +42,19 @@ html {
   width: 50ch;
   padding: 1rem;
   color: var(--clr-para);
+} */
+
+.wrapper {
+  border: 1px solid #000;
+  width: 90%;
+  max-width: 1536px;
+  margin-inline: auto;
+  position: relative;
+}
+.item {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+  border-radius: 6px;
+  position: absolute;
 }
