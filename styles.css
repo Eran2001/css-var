@@ -2,6 +2,7 @@
   --clr-bg: #f1f6, #f23;
   --clr-head: #dbc8c8;
   --clr-border: #d7cece;
+  --clr-font: "Poppins", sans-serif;
 }
 
 * ,
@@ -14,7 +15,7 @@
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--clr-font);
 }
 
 html {
