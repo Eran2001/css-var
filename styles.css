@@ -1,3 +1,9 @@
+:root {
+  --clr-bg: #f1f6, #f23;
+  --clr-head: #dbc8c8;
+  --clr-border: #d7cece;
+}
+
 * ,
 *::before,
 *::after {
@@ -12,7 +18,7 @@
 }
 
 html {
-  background-image: linear-gradient(to top, #f1f6, #f23);
+  background-image: linear-gradient(to top, var(--clr-bg));
 }
 
 .main {
@@ -25,12 +31,12 @@ html {
 }
 
 .heading {
-  color: #FFF;
+  color: var(--clr-head);
   margin-bottom: 1rem;
 }
 
 .para {
-  border: 1px solid #ffffff;
+  border: 1px solid var(--clr-border);
   width: 50ch;
   padding: 1rem;
 }
