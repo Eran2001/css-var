@@ -8,4 +8,29 @@
   margin: 0;
   padding: 0;
   line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  background-image: linear-gradient(to top, #f1f6, #f23);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.heading {
+  color: #FFF;
+  margin-bottom: 1rem;
+}
+
+.para {
+  border: 1px solid #ffffff;
+  width: 50ch;
+  padding: 1rem;
 }
