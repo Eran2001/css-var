@@ -1,5 +1,5 @@
 :root {
-  --clr-bg: #f1f6, #f23, rgba(34, 203, 62, 0.655);
+  --clr-bg: #dbc8c8;
   --clr-head: #dbc8c8;
   --clr-border: #d7cece;
   --clr-font: "Poppins", sans-serif;
@@ -20,7 +20,7 @@
 }
 
 html {
-  background-image: linear-gradient(to top, var(--clr-bg));
+  background-color: var(--clr-bg);
 }
 
 /* .main {
@@ -41,7 +41,7 @@ html {
   border: 1px solid var(--clr-border);
   width: 50ch;
   padding: 1rem;
-  color: var(--clr-para);
+  /* color: var(--clr-para);
 } */
 
 .wrapper {
@@ -50,6 +50,8 @@ html {
   max-width: 1536px;
   margin-inline: auto;
   position: relative;
+  height: 100px;
+  margin-top: 5rem;
 }
 .item {
   width: 200px;
@@ -57,4 +59,5 @@ html {
   background-color: red;
   border-radius: 6px;
   position: absolute;
+  left: 100%;
 }
