@@ -1,5 +1,5 @@
 :root {
-  --clr-bg: #f1f6, #f23;
+  --clr-bg: #f1f6, #f23, rgba(34, 203, 62, 0.655);
   --clr-head: #dbc8c8;
   --clr-border: #d7cece;
   --clr-font: "Poppins", sans-serif;
