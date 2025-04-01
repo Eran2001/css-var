@@ -32,10 +32,7 @@ html {
   text-align: center;
 }
 
-.heading {
-  color: var(--clr-head);
-  margin-bottom: 1rem;
-}
+
 
 .para {
   border: 1px solid var(--clr-border);
