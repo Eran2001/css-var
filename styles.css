@@ -6,7 +6,7 @@
   --clr-para: #141313;
 }
 
-* ,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -32,29 +32,9 @@ html {
   text-align: center;
 }
 
-
-
 .para {
   border: 1px solid var(--clr-border);
   width: 50ch;
   padding: 1rem;
-  /* color: var(--clr-para);
-}
-
-.wrapper {
-  border: 1px solid #000;
-  width: 90%;
-  max-width: 1536px;
-  margin-inline: auto;
-  position: relative;
-  height: 100px;
-  margin-top: 5rem;
-}
-.item {
-  width: 200px;
-  height: 100px;
-  background-color: red;
-  border-radius: 6px;
-  position: absolute;
-  left: 100%;
+  /* color: var(--clr-para); */
 }
