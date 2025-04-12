@@ -12,4 +12,8 @@ const myList = [
     color: "green",
   },
 ];
+
+const newList = { one: { name: "hello" }, two: { name: "world" } };
+
 console.log(myList[0]?.name);
+console.log(newList?.one?.name);
